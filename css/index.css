@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home {
+    background-color: #ddd;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.que,
+.log-in,
+.regester,
+.img {
+    width: 400px;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+
+.log-in {
+    display: none;
+    row-gap: 10px;
+
+}
+
+.regester {
+    display: none;
+    row-gap: 10px;
+
+}
+
+.img {
+    display: none;
+}
+
+.img img {
+    width: 50%;
+}
+
+.img .back {
+    /* display: none; */
+    margin-top: 20px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #ddd;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.log-in h1,
+.regester h1 {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.log-in input,
+.regester input {
+    padding: 2px;
+    outline: none;
+}
+
+.log-in .submit,
+.regester .send {
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #ddd;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.que {
+    row-gap: 40px;
+}
+
+.que .btns {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btns .yes ,
+.btns .no {
+    width: 60px;
+    height: 35px;
+    text-transform: capitalize;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.btns .yes {
+    background-color: green;
+}
+
+.btns .no {
+    background-color: red;
+}
